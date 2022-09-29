@@ -1,0 +1,61 @@
+body {
+	background-color: gainsboro;
+}
+
+/* Grid Stuff */
+.grid-1c {
+	display: grid;
+	row-gap: 20px;
+	grid-template-columns: auto;
+}
+.grid-2c {
+	display: grid;
+	row-gap: 20px;
+	grid-template-columns: auto auto;
+	justify-content: left;
+}
+
+.align-right {
+	justify-content: right;
+}
+.align-center {
+	justify-content: center;
+}
+
+.bit-of-padding {
+	padding: 10px;
+}
+
+/* Form styles */
+.text-input-main {
+	height: 30px;
+	width: 500px;
+	border-radius: 25px;
+	border: 2px solid rgb(179, 177, 177);
+}
+#img-params {
+	display: none;
+}
+.btn-submit {
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+}
+.txt-align-center {
+	align-items: center;
+}
+/* Advanced Search */
+.adv-header {
+	color: red;
+}
+.space-between {
+	justify-content: space-between;
+}
+.adv-input {
+	height: 25px;
+	width: 400px;
+}
+.adv-submit {
+	background-color: blue;
+	color: whitesmoke;
+}
